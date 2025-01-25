@@ -3,7 +3,7 @@ import React from "react";
 export default function Page() {
   return (
     <div className="max-w-4xl mx-auto px-6 py-12 font-mono leading-relaxed bg-white text-black">
-      <header className="mb-12">
+      <er className="mb-12">
         <div className="flex items-baseline justify-between mb-8">
           <h1 className="text-2xl">Actuated</h1>
           <nav>
@@ -33,7 +33,7 @@ export default function Page() {
           advanced AI and designed for simplicity, our system enables users to teach robots tasks through a few
           demonstrations (30-70), making robotics accessible to everyone.
         </p>
-      </header>
+      </er>
 
       <hr className="my-8 border-t border-gray-200" />
 
@@ -60,7 +60,7 @@ export default function Page() {
       >
         Gregory Makodzeba
       </a>
-      , Head of Growth at Runtime Verification
+      ,  of Growth at Runtime Verification
     </p>
     <p>
       <a
