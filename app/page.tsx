@@ -43,7 +43,7 @@ export default function Page() {
     <p>
       <a
         href="https://www.linkedin.com/in/yanovsk/"
-        className="text-gray-600 hover:opacity-70"
+        className="hover:opacity-70"
         target="_blank"
         rel="noopener noreferrer"
       >
@@ -54,7 +54,7 @@ export default function Page() {
     <p>
       <a
         href="http://x.com/youfelll/"
-        className="text-gray-600 hover:opacity-70"
+        className="hover:opacity-70"
         target="_blank"
         rel="noopener noreferrer"
       >
@@ -65,7 +65,7 @@ export default function Page() {
     <p>
       <a
         href="https://www.linkedin.com/in/nazar-drugov-175939276/"
-        className="text-gray-600 hover:opacity-70"
+        className="hover:opacity-70"
         target="_blank"
         rel="noopener noreferrer"
       >
