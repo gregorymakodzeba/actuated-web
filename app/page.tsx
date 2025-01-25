@@ -35,24 +35,49 @@ export default function Page() {
         </p>
       </header>
 
-      <hr className="my-12 border-t border-gray-200" />
+      <hr className="my-8 border-t border-gray-200" />
 
-      <section className="my-16">
-        <h2 className="text-sm mb-6">Team</h2>
-        <div className="flex gap-8">
-          <a href="https://www.linkedin.com/in/yanovsk/" className="hover:opacity-70">
-            Dima Yanovsky
-          </a>
-          <a href="http://x.com/youfelll/" className="hover:opacity-70">
-            Gregory Makodzeba
-          </a>
-          <a href="https://www.linkedin.com/in/nazar-drugov-175939276/" className="hover:opacity-70">
-            Nazar Drugov
-          </a>
-        </div>
-      </section>
+      <section className="my-12">
+  <h2 className="text-lg mb-6">Team</h2>
+  <div className="space-y-4">
+    <p>
+      <a
+        href="https://www.linkedin.com/in/yanovsk/"
+        className="text-gray-600 hover:opacity-70"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Dima Yanovsky
+      </a>
+      , CS MIT
+    </p>
+    <p>
+      <a
+        href="http://x.com/youfelll/"
+        className="text-gray-600 hover:opacity-70"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Gregory Makodzeba
+      </a>
+      , Head of Growth at Runtime Verification
+    </p>
+    <p>
+      <a
+        href="https://www.linkedin.com/in/nazar-drugov-175939276/"
+        className="text-gray-600 hover:opacity-70"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Nazar Drugov
+      </a>
+      , Mathematics at Tufts University
+    </p>
+  </div>
+</section>
 
       <section className="mb-16">
+      <hr className="my-12 border-t border-gray-200" />
         <p>
           If you want to contribute to the mission of making dexterous robotic arm accessible - please{" "}
           <a href="mailto:yanovsky@mit.edu" className="underline hover:opacity-70">
