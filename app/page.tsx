@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Page() {
   return (
-    <div className="max-w-4xl mx-auto px-6 py-12 font-mono leading-relaxed">
+    <div className="max-w-4xl mx-auto px-6 py-12 font-mono leading-relaxed bg-white text-black">
       <header className="mb-12">
         <div className="flex items-baseline justify-between mb-8">
           <h1 className="text-2xl">Actuated</h1>
